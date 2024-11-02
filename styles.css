@@ -192,6 +192,10 @@ header .menu-close-btn{
     font-weight: 500;
 
 }
+.portfolio-items .item:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: .2s;
+}
 .container .portfolio-title{
     display: flex;
     flex-direction: column;
