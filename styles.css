@@ -75,6 +75,7 @@ header .menu-dropdown{
     align-items: center;
     background-color: #fff;
     display: none;
+    position: fixed;
 }
 header .menu-dropdown a{
     padding: 10px 0;
@@ -215,6 +216,58 @@ header .menu-close-btn{
 }
 .items p{
     font-size: 30px;
+    line-height: 1.5;
+}
+
+/* about-section */
+
+#about{
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+}
+#about .content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-shade);
+    border-radius: 10px;
+    flex-direction: column;
+}
+.about-image{
+    width: 50%;
+    padding: 10px;
+    
+}
+.about-image img{
+    width: 100%;
+}
+.about-text{
+    width: 90%;
+    padding: 10px;
+}
+.about-text p{
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+}
+#about h1{
+    font-size: 50px;
+    margin: 20px;
+    align-self: self-start;
 }
 
 /* Desktop-Design */
@@ -238,7 +291,23 @@ header .menu-close-btn{
         justify-content: center;
         align-items: center;
     }
-    
+    .about-text{
+        width: 60%;
+        padding: 30px;
+
+    }
+    .about-image{
+        width: 40%;
+        padding: 30px;
+    }
+    .about-text p{
+        line-height: 1.5;
+        font-size: 25px;
+        text-align:start;
+    }
+    #about .content{
+        flex-direction: row;
+    }
 }
 @media (min-width: 1300px){
     #hero .container{
