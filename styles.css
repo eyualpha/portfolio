@@ -28,6 +28,7 @@ nav{
     padding: 0 30px;
     position: fixed;
     background-color: #fff;
+    box-shadow: inset 1px -2px 1px rgba(0,0,0,0.1);
 }
 nav ul{
     display: none; 
@@ -193,7 +194,7 @@ header .menu-close-btn{
 
 }
 .portfolio-items .item:hover{
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px var(--primary-color);
     transition: .2s;
 }
 .container .portfolio-title{
@@ -252,9 +253,7 @@ header .menu-close-btn{
     flex-direction: column;
 }
 .about-image{
-    width: 50%;
-    padding: 10px;
-    
+    width: 50%;    
 }
 .about-image img{
     width: 100%;
@@ -390,7 +389,6 @@ label{
     }
     .about-image{
         width: 40%;
-        padding: 30px;
     }
     .about-text p{
         line-height: 1.5;
