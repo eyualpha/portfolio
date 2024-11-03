@@ -62,5 +62,3 @@ This repository contains the source code for a personal portfolio website design
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to adjust this README to include specific deployment instructions or add sections as your project evolves!
