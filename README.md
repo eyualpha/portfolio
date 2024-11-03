@@ -59,6 +59,6 @@ This repository contains the source code for a personal portfolio website design
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://gh.io/mit)
 
 ---
